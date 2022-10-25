@@ -1,5 +1,7 @@
 #include<stdio.h>
 
+// Here the function take a score out of 100. and return grade. 
+
 int main() {
   int marks;
   printf("Please input your marks: ");
