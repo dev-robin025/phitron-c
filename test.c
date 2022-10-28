@@ -1,12 +1,10 @@
 #include <stdio.h>
-void main()
+
+
+
+int main()
 {
-    int i=0;
-    for (i=0; i<8; i++)
-    {
-        if (i%4)
-        {
-            printf("Phitron\n");
-        }
-    }
+    int a =5, b=8;
+    
+    printf("%d and %d" , a, b); 
 }
