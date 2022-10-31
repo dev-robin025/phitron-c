@@ -1,10 +1,14 @@
-#include <stdio.h>
-
-
+#include<stdio.h>
+#include <string.h>
 
 int main()
 {
-    int a =5, b=8;
-    
-    printf("%d and %d" , a, b); 
+    char* test1="robin";
+    char* test2="robim";
+
+
+    int res = strcmp(test1,"robin");
+    printf("%d",res);
+ 
+    return 0;
 }
