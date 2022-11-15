@@ -1,14 +1,12 @@
 #include<stdio.h>
-#include <string.h>
+#include<string.h>
 
 int main()
-{
-    char* test1="robin";
-    char* test2="robim";
-
-
-    int res = strcmp(test1,"robin");
-    printf("%d",res);
- 
-    return 0;
-}
+    {
+        int i = 0;
+   for (i)
+   {
+      printf("Phitron");
+   }
+        return 0;
+    }

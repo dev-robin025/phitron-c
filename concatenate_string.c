@@ -14,8 +14,8 @@ int main(){
         int d_len = strlen(concat); //d donates destination
         int s_len = strlen(word); // s donates source
 
-        for(int j=0;word[j]!='\0';j++){
-            concat[d_len+j]=word[j];
+        for(int c=0;c<=s_len;c++){
+            concat[d_len+c]=word[c];
         }
     }
     printf("%s",concat); 
