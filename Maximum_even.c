@@ -34,7 +34,9 @@ int main()
     int oddSum = c + d;
     int evenSum = a + b;
 
-    if (oddSum > evenSum)
+    printf("oddsum=%d and even sum= %d\n", oddSum, evenSum);
+
+    if (oddSum > evenSum && oddSum % 2 == 0)
         printf("%d", oddSum);
     else
         printf("%d", evenSum);
